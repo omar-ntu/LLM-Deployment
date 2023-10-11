@@ -7,8 +7,10 @@ import openai
 
 # os.environ["HUGGINGFACEHUB_API_TOKEN"] = hf_apikey
 # openai.api_key = openai_apikey
-st.write("HF:", st.secrets["hf_apikey"])
-st.write("OPENAI:", st.secrets["openai_apikey"])
+# st.write("HF:", st.secrets["hf_apikey"])
+# st.write("OPENAI:", st.secrets["openai_apikey"])
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = st.secrets["hf_apikey"]
+openai.api_key = st.secrets["openai_apikey"]
 
 # Falcon
 repo_id = "tiiuae/falcon-7b-instruct"
