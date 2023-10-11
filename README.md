@@ -9,6 +9,6 @@ This project is built using:
 
   - falcon-7b/ GPT3.5 Turbo/ my own model for the language model, 
   - three.js for avatar generation
-  - and Text2Speech
+  - and amazon polly for text to speech
 
-[Current update]: building my own LLM while learning three.js to create a 3D avatar model.
+[Current task]: deploying on streamlit
