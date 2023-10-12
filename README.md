@@ -13,4 +13,9 @@ This project is built using:
   - three.js for avatar generation
   - and amazon polly for text to speech
 
-[Current task]: deploying on streamlit
+[Current task]: 
+- deploying using html, css, js
+
+[Completed tasks]:
+- deploy on streamlit
+
