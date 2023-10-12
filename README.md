@@ -13,6 +13,19 @@ This project is built using:
   - three.js for avatar generation
   - and amazon polly for text to speech
 
+
+
+**Step 1:** Inital interface. User enters their text query at the bottom.
+
+![Image 1](images/1.jpg)
+
+**Step 2:** User chooses model to feed their query into. That chosen model will be the first to answer the user's query.
+
+![Image 2](images/2.jpg)
+
+**Step 3:** The remaining models answer, either agreeing or disagreeing with the first model's statement, provided by their own reasoning.
+
+![Image 3](images/3.jpg)
 [Current task]: 
 - deploying using html, css, js
 
