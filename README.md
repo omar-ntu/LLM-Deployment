@@ -1,4 +1,4 @@
-# LLM-Deployment (Ongoing)
+# LLM-Deployment (stopped)
 This is a personal project: Building and deploying an AI friend
 
 This project is LIVE on https://llm-deployment-1234.streamlit.app/ 
